@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
 //        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         mRecyclerView.setLayoutManager(layoutManager);
 
+        DividerItemDecoration itemDecoration=new DividerItemDecoration(MainActivity.this,layoutManager.VERTICAL);
+        mRecyclerView.addItemDecoration(itemDecoration);
+
         feedsList=new ArrayList<String>();
 
         for(int i=0;i<10;i++){

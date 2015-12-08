@@ -41,6 +41,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Cu
     }
 
 
+
     class CustomViewHolder extends RecyclerView.ViewHolder {
         protected ImageView imageView;
         protected TextView textView;
